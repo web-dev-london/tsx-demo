@@ -20,7 +20,9 @@ function App() {
             <ListGroup onSelectItem={handleSelecItem}
                 items={items}
                 heading='Cities' />
-            <Alert />
+            <Alert>
+                Hello <span>World!</span>
+            </Alert>
         </>
     )
 }
